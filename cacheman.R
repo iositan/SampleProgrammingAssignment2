@@ -1,3 +1,4 @@
+# This is the sample calling function
 cachemean <- function(x, ...) {
     m <- x$getmean()
     if(!is.null(m)) {
